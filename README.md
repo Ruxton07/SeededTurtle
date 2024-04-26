@@ -12,7 +12,7 @@ To install SeededTurtle, you can use pip:
 pip install seededturtle
 ```
 
-Afterwards, just use an `import` statement in your program in order to use functions from the library (see [Usage](doc:linking-to-pages##Usage) examples below)
+Afterwards, just use an `import` statement in your program in order to use functions from the library (see [Usage](#usage) examples below)
 ## Usage
 
 The main function in the RandTurtle library is `generateRandomTurtle()`. This function generates a turtle with random properties based on the provided seed.
