@@ -50,13 +50,17 @@ turtle = generateRandomTurtle(rt.generateRandomSeed())
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+### Dependencies
+
+`random`, `turtle`, `regex`, and `time.sleep()`.
+
 ### Known Issues
 
-The fill
+The fill only works when there is enough `iterations` to make a complete loop for the shape. Otherwise, the turtle library cannot fill an incomplete shape because there is no closed object. This isn't exactly an issue, but more something that the user needs to understand before trying to enable filling for their random turtle.
 
 ## Notes from the creator
 
-This was my second python library deployed (I also created chainhashing), so I still have lots to learn. I know there are probably a few issues with the library/optimizations that could be made, but hopefully people looking to use this library still find use out of it! I've run many test and my conclusion is that there are no functionality errors with this library, but I wouldn't be suprised if someone runs into issues. Any advice/change recommendations are greatly appreciated; feel free to email me at rt.kellar@gmail.com or open an issue on the GitHub page for this library, https://github.com/Ruxton07/SeededTurtle. Enjoy!
+This was my second python library deployed (I also created chainhashing), so I still have lots to learn. I know there are probably a few issues with the library/optimizations that could be made, but hopefully people looking to use this library still find use out of it! Any advice/change recommendations are greatly appreciated; feel free to email me at rt.kellar@gmail.com or open an issue on the GitHub page for this library, https://github.com/Ruxton07/SeededTurtle. Enjoy!
 
 ## License
 
