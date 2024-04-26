@@ -1,6 +1,6 @@
 # SeededTurtle
 
-RandTurtle is a Python library that allows you to generate random turtles with various properties. It's a fun and creative way to explore the world of programming with Python's turtle graphics. The idea is that the randTurtle function takes a seed as input and produces a resulting "randomized" turtle graphic when you run the program.
+SeededTurtle is a Python library that allows you to generate random turtles with various properties. It's a fun and creative way to explore the world of programming with Python's turtle graphics. The idea is that the randTurtle function takes a seed as input and produces a resulting "randomized" turtle graphic when you run the program.
 
 The turtle graphic randomization is reproducable based on what the seed is, so if you enter in "iloveturtles" as the seed two seperate times, it will return the same turtle. The library also provides support for randomizing this seed, so you can call the function to get a random seed and use that as the seed for generating a random turtle.
 
