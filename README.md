@@ -6,12 +6,13 @@ The turtle graphic randomization is reproducable based on what the seed is, so i
 
 ## Installation
 
-To install RandTurtle, you can use pip:
+To install SeededTurtle, you can use pip:
 
 ```bash
-pip install randturtle
+pip install seededturtle
 ```
 
+Afterwards, just use an `import` statement in your program in order to use functions from the library (see [Usage](doc:linking-to-pages##Usage) examples below)
 ## Usage
 
 The main function in the RandTurtle library is `generateRandomTurtle()`. This function generates a turtle with random properties based on the provided seed.
@@ -19,10 +20,10 @@ The main function in the RandTurtle library is `generateRandomTurtle()`. This fu
 Here is an example of how to use it:
 
 ```python
-from randturtle import generateRandomTurtle
+import seededturtle.randTurtle as rt
 
 # Generate a random turtle
-turtle = generateRandomTurtle("your_seed_here")
+turtle = rt.generateRandomTurtle("your_seed_here")
 ```
 
 The `generateRandomTurtle()` function takes the following parameters:
@@ -43,7 +44,7 @@ For seed randomization as well, simply do:
 import seededturtle.randturtle as rt
 
 # Generate a random turtle using a random seed
-turtle = generateRandomTurtle(rt.generateRandomSeed())
+turtle = rt.generateRandomTurtle(rt.generateRandomSeed())
 ```
 
 ## Contributing
